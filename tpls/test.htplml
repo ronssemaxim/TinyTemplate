@@ -1,0 +1,19 @@
+<< extends tpls/middle >>
+use the extends keyword on the first line to extend an existing template
+
+use blocks in combination with placeholders to create blocks of code
+<< block content { >>
+	<< for $test = 15; $test < 14; $test ++ { >>
+		Test = << $test >><br />
+	<< } else { >>
+		else :/
+	<< } >>
+
+	other similar tags: while, if-else
+
+	<< set $test = 10 >>
+
+	<< echo test >>
+
+	<< dump test >>
+<< } >>

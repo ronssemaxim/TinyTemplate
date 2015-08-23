@@ -1,0 +1,6 @@
+<< extends tpls/layout >>
+
+<< block body { >>
+	<h2>Actual midle</h2>
+	<< placeholder content >>
+<< } >>
